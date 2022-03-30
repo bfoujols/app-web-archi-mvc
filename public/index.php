@@ -9,8 +9,8 @@ $dotenv->load();
 
 $connect = bddService::getConnect();
 
-echo DebugHandler::dump($connect);
+DebugHandler::dump($connect);
 
-\Quizz\DebugHandler::dump($_ENV);
+echo \Quizz\DebugHandler::dump($_ENV);
 
 echo "Hello World";
