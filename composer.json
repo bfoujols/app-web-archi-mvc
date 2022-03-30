@@ -1,0 +1,20 @@
+{
+    "name": "redbull/bst-sio-a-2022-quizziz-backend",
+    "autoload": {
+        "psr-4": {
+            "Quizz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benoit Foujols",
+            "email": "benoit@foujols.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "scripts": {
+        "start": "php -S localhost:8042 -t public"
+    }
+}
