@@ -12,6 +12,7 @@
 ````
 # BST-SIO-A-2022-Quizziz-Backend
 
+### SETUP PROJET
 Installation du projet
 ````
 $ composer install
@@ -22,7 +23,9 @@ Demarrer ton projet
 $ composer start
 ````
 
-Pour mettre a jour les classes, faire la commande de autoloader
+
+### DEV PROJET
+En cas de création ou de mise a jour des classes du projet, faire la commande de autoloader
 ````
 $ composer dump-autoload 
 ````
