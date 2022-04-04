@@ -18,6 +18,11 @@ Installation du projet
 $ composer install
 ````
 
+Mettre un fichier .env
+````
+$ cp .env-exemple .env
+````
+
 Demarrer ton projet
 ````
 $ composer start
