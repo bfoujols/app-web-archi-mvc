@@ -34,3 +34,8 @@ En cas de création ou de mise a jour des classes du projet, faire la commande d
 ````
 $ composer dump-autoload 
 ````
+
+### DEV STACK
+````
+"vlucas/phpdotenv": "^5.4"
+````
