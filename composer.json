@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "vlucas/phpdotenv": "^5.4"
+        "vlucas/phpdotenv": "^5.4",
+        "twig/twig": "^3.3"
     },
     "scripts": {
         "start": "php -S localhost:8042 -t public"

@@ -14,6 +14,9 @@ class questionnaireModel
         $this->bdd = bddService::getConnect();
     }
 
+    /**
+     * @return array
+     */
     public function getFechAll()
     {
         $requete = $this->bdd->prepare('SELECT * FROM questionnaire');
@@ -31,6 +34,10 @@ class questionnaireModel
         return $tabQuestionnaire;
     }
 
+    /**
+     * @param int $id
+     * @return Questionnaire
+     */
     public function getFechId(int $id)
     {
         $requete = $this->bdd->prepare('SELECT * FROM questionnaire where idQuestionnaire = ' . $id);
