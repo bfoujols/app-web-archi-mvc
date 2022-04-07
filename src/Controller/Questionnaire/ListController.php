@@ -1,13 +1,12 @@
 <?php
 
-namespace Quizz\Controller;
+namespace Quizz\Controller\Questionnaire;
 
 use Quizz\Core\Controller\ControllerInterface;
 use Quizz\Core\View\TwigCore;
 use Quizz\Model\QuestionnaireModel;
-use Twig\Environment;
 
-class listQuestionnaireController implements ControllerInterface
+class ListController implements ControllerInterface
 {
 
     public function inputRequest(array $tabInput)
