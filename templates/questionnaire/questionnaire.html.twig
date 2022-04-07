@@ -1,0 +1,10 @@
+{% extends "base.twig" %}
+
+{% block title %}{{ questionnaire.getLibelleQuestionnaire }}{% endblock %}
+
+{% block body %}
+    <h1>Questionnaire : {{ questionnaire.getLibelleQuestionnaire }}</h1>
+    {{ questionnaire.getLibelleQuestionnaire }} ({{ questionnaire.getIdQuestionnaire }})<br>
+    <a href="/lister">Retour</a>
+{% endblock %}
+

@@ -1,0 +1,11 @@
+{% extends "base.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <h1>Liste des questionnaires</h1>
+    {% for questionnaire in questionnaires %}
+        <a href="/detail/{{ questionnaire.getIdQuestionnaire }}">{{ questionnaire.getLibelleQuestionnaire }}</a><br>
+    {% endfor %}
+{% endblock %}
+

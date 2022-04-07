@@ -2,16 +2,16 @@
 
 namespace Quizz\Model;
 
+use Quizz\Core\Service\DatabaseService;
 use Quizz\Entity\Questionnaire;
-use Quizz\Service\bddService;
 
-class questionnaireModel
+class QuestionnaireModel
 {
     private $bdd;
 
     public function __construct()
     {
-        $this->bdd = bddService::getConnect();
+        $this->bdd = DatabaseService::getConnect();
     }
 
     public function getFechAll()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Quizz;
+namespace Quizz\Core;
 
 class DebugHandler
 {
