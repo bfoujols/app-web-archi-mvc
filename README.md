@@ -39,7 +39,7 @@ $ composer dump-autoload
 ````
 # Gestion Environnement
 "vlucas/phpdotenv": "^5.4"
-# Gestion de template (Couche MODEL)
+# Gestion de template (Couche VIEW)
 "twig/twig": "^3.0"
 # Gestion des controllers (Couche CONTROLLER)
 "nikic/fast-route": "^1.3"
