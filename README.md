@@ -35,12 +35,11 @@ En cas de création ou de mise a jour des classes du projet, faire la commande d
 $ composer dump-autoload 
 ````
 
+
 ### DEV STACK
-````
-# Gestion Environnement
-"vlucas/phpdotenv": "^5.4"
-# Gestion de template (Couche VIEW)
-"twig/twig": "^3.0"
-# Gestion des controllers (Couche CONTROLLER)
-"nikic/fast-route": "^1.3"
-````
+| Version  | Service                                                                | DESCRIPTION                      |
+|:---------|:-----------------------------------------------------------------------|:---------------------------------|
+| ^5.4     | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv)    | Loads environment variables      |
+| ^3.3     | [twig/twig](https://packagist.org/packages/twig/twig)                  | Template Engine (VIEW couch)     |
+| ^1.3     | [nikic/fast-route](https://packagist.org/packages/nikic/fast-route)    | Router Engine (CONTROLLER couch) |
+| ^8.0     | PHP engine                                                             |                                  |  
