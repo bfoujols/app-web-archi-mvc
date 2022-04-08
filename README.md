@@ -43,3 +43,7 @@ $ composer dump-autoload
 | ^3.3     | [twig/twig](https://packagist.org/packages/twig/twig)                  | Template Engine (VIEW couch)     |
 | ^1.3     | [nikic/fast-route](https://packagist.org/packages/nikic/fast-route)    | Router Engine (CONTROLLER couch) |
 | ^8.0     | PHP engine                                                             |                                  |  
+
+### DOCUMENTATION
+
+![schema](https://github.com/bfoujols/BST-SIO-A-2022-Quizziz-Backend/blob/main/docs/Concept-MVC.drawio.png?raw=true)
