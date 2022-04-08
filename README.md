@@ -51,10 +51,10 @@ $ composer dump-autoload
 
 #### USE CASE "/lister"
 
-1/ Le user envoie une requete "Demande" HTTP via un browser, voici l'adresse http://localhost/lister \
-2/ La couche CONTROLLER (via FastRoute) receptionne la requete HTTP -> /lister et l'envoie sur le bon controller -> Quizz\Controller\Questionnaire\ListController \
-3/ La couche MODEL se charge de gestion des donnees \
+1/ Le user envoie une requête "Demande" HTTP via un browser, voici l'adresse http://localhost/lister \
+2/ La couche CONTROLLER (via FastRoute) réceptionne la requête HTTP -> /lister et l'envoie sur le bon controller -> Quizz\Controller\Questionnaire\ListController \
+3/ La couche MODEL se charge de gestion des données \
 4/ La database est en relation avec la couche MODEL \
-5/ Une fois le traitement de donnees via la couche Model, les donnees sont envoyees dans un moteur de template (template engine) -> Twig \
+5/ Une fois le traitement de données via la couche Model, les données sont envoyees dans un moteur de template (template angine) -> Twig \
 6/ Dans la couche VIEW, les données sont placées dans les composants des templates HTML puis transmis au user via le protocole HTTP \
-7/ Le user receptionne la requete "Reponse" pour que le browser puisse interpreter le code d'interface (HTML/CSS/JS) avec sa runtime local
+7/ Le user réceptionne la requête "Reponse" pour que le browser puisse interpréter le code d'interface (HTML/CSS/JS) avec sa runtime local
