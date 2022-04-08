@@ -23,7 +23,7 @@ Mettre un fichier .env
 ````
 $ cp .env-exemple .env
 ````
-Puis renseigner les variables d'environnement dans le fichier .env \
+Puis renseigner les variables d'environnement dans le fichier .env
 
 Demarrer ton projet
 ````
