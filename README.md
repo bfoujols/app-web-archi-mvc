@@ -62,7 +62,7 @@ La couche MODEL se charge de gestion des données
 #### 4/ La database
 La database est en relation avec la couche MODEL
 #### 5/ Traitement de donnée
-Une fois le traitement de données via la couche MODEL, les données sont envoyées dans un moteur de template (template angine) -> Twig \
+Une fois le traitement de données via la couche MODEL, les données sont envoyées dans un moteur de template (template angine) -> Twig
 #### 6/ Couche VIEW
 Dans la couche VIEW, les données sont placées dans les composants des templates HTML puis transmis au user via le protocole HTTP
 #### 7/ Reponse HTTP via le browser
