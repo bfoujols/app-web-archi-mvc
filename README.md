@@ -10,7 +10,7 @@
  |____/ \__,_|\___|_|\_\  \___/|_| |_|_| |_| |_|\___\___|
                                                          
 ````
-# BST-SIO-A-2022-Quizziz-BackOffice
+# BTS-SIO-A-2022-Quizziz-BackOffice
 Voici le modèle construit en cours pour réaliser la suite du projet QUIZZIZ
 
 ### SETUP PROJET
