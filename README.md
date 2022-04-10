@@ -46,6 +46,8 @@ $ composer dump-autoload
 | ^1.3    | [nikic/fast-route](https://packagist.org/packages/nikic/fast-route) | Router Engine (CONTROLLER couch) |
 | ^8.0    | PHP Engine                                                          |                                  |  
 | ^2.0    | Composer Dependency Manager                                         |                                  | 
+|         | [Testing](https://codeception.com/)                                 |                                  |
+
 ### DOCUMENTATION
 
 ![schema](https://github.com/bfoujols/BST-SIO-A-2022-Quizziz-Backend/blob/main/docs/Concept-MVC.drawio.png?raw=true)
