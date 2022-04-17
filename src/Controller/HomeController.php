@@ -2,24 +2,26 @@
 
 namespace Quizz\Controller;
 
+use Quizz\Model\questionnaireModel;
+use Quizz\Service\TwigService;
 use Quizz\Core\Controller\ControllerInterface;
-use Quizz\Core\View\TwigCore;
-use Quizz\Model\QuestionnaireModel;
-use Twig\Environment;
 
 class HomeController implements ControllerInterface
 {
-
     public function inputRequest(array $tabInput)
     {
-        // Nulle :)
+        // TODO: Implement inputRequest() method.
     }
 
     public function outputEvent()
     {
-        // Si y a pas de GET alors j'affiche tout
-        return TwigCore::getEnvironment()->render(
-            'home/home.html.twig',
-            []);
+        $twig = TwigService::getEnvironment();
+        // Obj connect Mysql -> Obj Questionnaire
+        $questionnaireModel = new questionnaireModel();
+
+        echo $twig->render('home/home.html.twig', [
+            'result' => $questionnaireModel->getFechAll(),
+            'visu' => false
+        ]);
     }
 }
