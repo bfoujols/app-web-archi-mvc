@@ -3,6 +3,7 @@
 namespace Quizz\Core\Controller;
 
 use FastRoute\Dispatcher;
+use Quizz\Controller\Error\HttpController;
 
 class FastRouteCore
 {
@@ -21,8 +22,8 @@ class FastRouteCore
         $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
         switch ($routeInfo[0]) {
             case Dispatcher::NOT_FOUND:
-                // TODO mettre les erreurs
-                // ... 404 Not Found
+                $httpController = new HttpController();
+                return $httpController->outputEvent();
                 break;
             case Dispatcher::METHOD_NOT_ALLOWED:
                 $allowedMethods = $routeInfo[1];
