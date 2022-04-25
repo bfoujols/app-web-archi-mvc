@@ -24,7 +24,6 @@ class FastRouteCore
             case Dispatcher::NOT_FOUND:
                 $httpController = new HttpController();
                 return $httpController->outputEvent();
-                break;
             case Dispatcher::METHOD_NOT_ALLOWED:
                 $allowedMethods = $routeInfo[1];
                 // TODO mettre les erreurs
