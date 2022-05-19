@@ -51,8 +51,7 @@ $ composer dump-autoload
 |         | [Testing](https://codeception.com/)                                 |                                  |
 
 ### DOCUMENTATION
-
-![schema](https://github.com/bfoujols/BST-SIO-A-2022-Quizziz-Backend/blob/main/docs/Concept-MVC.drawio.png?raw=true)
+La base de donnée est dans le repertoire docs
 
 #### USE CASE "/lister"
 
