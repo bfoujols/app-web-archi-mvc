@@ -8,8 +8,8 @@ L'objectif pédagogique est :
 - Début d'approche pour l'enseignement d'une framework (symfony, slim, Laravel ...)
 
 Cible :
-- Première année / 2ème semestre pour AP ou Support
-- Deuxième année / 1ere semestre pour AP 
+- Première année / 2e semestre pour AP ou Support
+- Deuxième année / 1re semestre pour AP 
 
 ### SETUP PROJET
 Installation du projet
@@ -34,7 +34,7 @@ En cas de création ou de mise a jour des classes du projet, faire la commande d
 ````
 $ composer dump-autoload 
 ````
-Pour la base de donnée, elle se trouve dans le repertoire "docs/bddqcm.sql"
+Pour la base de donnée, elle se trouve dans le répertoire "docs/bddqcm.sql"
 
 ### DEV STACK
 | Version | Service                                                             | DESCRIPTION                      |
@@ -69,6 +69,6 @@ Dans la couche VIEW, les données sont placées dans les composants des template
 Le user réceptionne la requête "Reponse" pour que le browser puisse interpréter le code d'interface (HTML/CSS/JS) avec sa runtime local
 
 ### AUTEUR
-Benoit Foujols - ORT Sup Montreuil - AC Creteil
+Benoit Foujols - ORT Sup' Montreuil - AC Creteil
 
 ![signature](https://github.com/bfoujols/bfoujols/blob/main/assets/bfoujols-sign.png?raw=true)
