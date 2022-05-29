@@ -1,17 +1,15 @@
-````
-   ___        _         _                                
-  / _ \ _   _(_)_______(_)____                           
- | | | | | | | |_  /_  / |_  /                           
- | |_| | |_| | |/ / / /| |/ /                            
-  \__\_\\__,_|_/___/___|_/___|    __  __ _          
- | __ )  __ _  ___| | __  / _ \  / _|/ _(_) ___ ___ 
- |  _ \ / _` |/ __| |/ / | | | || |_| |_| |/ __/ _ \
- | |_) | (_| | (__|   <  | |_| ||  _|  _| | (_|  __/
- |____/ \__,_|\___|_|\_\  \___/ |_| |_| |_|\___\___|
-                                                         
-````
-# BTS-SIO-A-2022-Quizziz-BackOffice
-Voici le modèle construit en cours pour réaliser la suite du projet QUIZZIZ
+# BTS SIO WEB ARCHI MVC
+Voici une proposition d'architecture MVC pour l'élaboration d'un projet ou de TP en cours \
+L'objectif pédagogique est :
+- Appréhender un projet par couche via MVC
+- Faire un projet dans les bests pratiques (d'entreprise)
+- Orchestrer via un gestionnaire de package (composer)
+- Développement de test unitaire
+- Début d'approche pour l'enseignement d'une framework (symfony, slim, Laravel ...)
+
+Cible :
+- Première année / 2ème semestre pour AP ou Support
+- Deuxième année / 1ere semestre pour AP 
 
 ### SETUP PROJET
 Installation du projet
@@ -25,8 +23,6 @@ $ cp .env-exemple .env
 ````
 Puis renseigner les variables d'environnement dans le fichier .env
 
-Lien pour la base de donnée : [QUIZZIZ](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98d1f42e-435a-4e0c-96b3-cebf3af6933a/bddqcm.sql?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220425%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220425T131517Z&X-Amz-Expires=86400&X-Amz-Signature=c504584fdf062ff4d022962e003f78179e886cd9342a1f5a569555c970458646&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22bddqcm.sql%22&x-id=GetObject)
-
 Demarrer ton projet
 ````
 $ composer start
@@ -38,7 +34,7 @@ En cas de création ou de mise a jour des classes du projet, faire la commande d
 ````
 $ composer dump-autoload 
 ````
-
+Pour la base de donnée, elle se trouve dans le repertoire "docs/bddqcm.sql"
 
 ### DEV STACK
 | Version | Service                                                             | DESCRIPTION                      |
@@ -51,7 +47,8 @@ $ composer dump-autoload
 |         | [Testing](https://codeception.com/)                                 |                                  |
 
 ### DOCUMENTATION
-La base de donnée est dans le repertoire docs
+
+![schema](https://github.com/bfoujols/BTS-SIO-WEB-ARCHI-MVC/blob/main/docs/Concept-MVC.drawio.png?raw=true)
 
 #### USE CASE "/lister"
 
@@ -59,9 +56,9 @@ La base de donnée est dans le repertoire docs
 Le user envoie une requête "Demande" HTTP via un browser, voici l'adresse http://localhost/lister
 #### 2/ Réception HTTP
 La couche CONTROLLER (via FastRoute) réceptionne la requête HTTP -> /lister \
-et l'envoie sur le bon controller -> Quizz\Controller\Questionnaire\ListController 
+et l'envoie sur le bon controller -> Quizz\Controller\Questionnaire\ListController
 #### 3/ Couche MODEL
-La couche MODEL se charge de gestion des données 
+La couche MODEL se charge de gestion des données
 #### 4/ La database
 La database est en relation avec la couche MODEL
 #### 5/ Traitement de donnée
@@ -70,3 +67,8 @@ Une fois le traitement de données via la couche MODEL, les données sont envoy�
 Dans la couche VIEW, les données sont placées dans les composants des templates HTML puis transmis au user via le protocole HTTP
 #### 7/ Reponse HTTP via le browser
 Le user réceptionne la requête "Reponse" pour que le browser puisse interpréter le code d'interface (HTML/CSS/JS) avec sa runtime local
+
+### AUTEUR
+Benoit Foujols - ORT Sup Montreuil - AC Creteil
+
+![signature](https://github.com/bfoujols/bfoujols/blob/main/assets/bfoujols-sign-all.png?raw=true)
