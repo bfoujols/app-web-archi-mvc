@@ -48,7 +48,7 @@ Pour la base de donnée, elle se trouve dans le repertoire "docs/bddqcm.sql"
 
 ### DOCUMENTATION
 
-![schema](https://github.com/bfoujols/BTS-SIO-WEB-ARCHI-MVC/blob/main/docs/Concept-MVC.drawio.png?raw=true)
+![schema](https://github.com/bfoujols/BTS-SIO-WEB-ARCHI-MVC/blob/main/docs/Concept-MVC.png?raw=true)
 
 #### USE CASE "/lister"
 
