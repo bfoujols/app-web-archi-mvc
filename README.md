@@ -71,4 +71,4 @@ Le user réceptionne la requête "Reponse" pour que le browser puisse interprét
 ### AUTEUR
 Benoit Foujols - ORT Sup Montreuil - AC Creteil
 
-![signature](https://github.com/bfoujols/bfoujols/blob/main/assets/bfoujols-sign-all.png?raw=true)
+![signature](https://github.com/bfoujols/bfoujols/blob/main/assets/bfoujols-sign.png?raw=true)
