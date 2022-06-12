@@ -2,7 +2,7 @@
 Voici une proposition d'architecture MVC pour l'élaboration d'un projet ou de TP en cours \
 L'objectif pédagogique est :
 - Appréhender un projet par couche via MVC
-- Faire un projet dans les bests pratiques (d'entreprise)
+- Faire un projet "full POO" et dans les "best practices" attendu par les entreprises
 - Orchestrer via un gestionnaire de package (composer)
 - Développement de test unitaire
 - Début d'approche pour l'enseignement d'une framework (symfony, slim, Laravel ...)
