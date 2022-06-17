@@ -18,6 +18,12 @@
         "ext-pdo": "*"
     },
     "scripts": {
-        "start": "php -S localhost:8042 -t public"
+        "start": "php -S localhost:8042 -t public",
+        "test": "php vendor/bin/codecept run unit"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.2",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0"
     }
 }
