@@ -16,24 +16,24 @@ Cible :
 
 ### SETUP PROJET
 Installation du projet
-````
+````shell
 $ composer install
 ````
 
 Mettre un fichier .env
-````
+````shell
 $ cp .env-exemple .env
 ````
 Puis renseigner les variables d'environnement dans le fichier .env
 
 Demarrer ton projet
-````
+````shell
 $ composer start
 ````
 
 ### DEV PROJET
 En cas de création ou de mise a jour des classes du projet, faire la commande de autoloader
-````
+````shell
 $ composer dump-autoload 
 ````
 Pour la base de donnée, elle se trouve dans le répertoire "docs/bddqcm.sql"
@@ -50,7 +50,7 @@ Pour la base de donnée, elle se trouve dans le répertoire "docs/bddqcm.sql"
 
 ### TESTING
 
-```
+```shell
 composer test
 ```
 
