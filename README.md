@@ -2,6 +2,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/df1ed0cf2b5a46e68a822e674ca8e671)](https://www.codacy.com/gh/bfoujols/BTS-SIO-Web-Archi-MVC/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bfoujols/manage-student-cli&amp;utm_campaign=Badge_Grade)
 ![CI](https://github.com/bfoujols/BTS-SIO-Web-Archi-MVC/actions/workflows/codacy.yml/badge.svg)
 ![CI](https://github.com/bfoujols/BTS-SIO-Web-Archi-MVC/actions/workflows/testing.yml/badge.svg)
+
 Voici une proposition d'architecture MVC pour l'élaboration d'un projet ou de TP en cours \
 L'objectif pédagogique est :
 - Appréhender un projet par couche via MVC
@@ -45,7 +46,7 @@ Pour la base de donnée, elle se trouve dans le répertoire "docs/bddqcm.sql"
 | ^3.3    | [twig/twig](https://packagist.org/packages/twig/twig)               | Template Engine (VIEW couch)     |
 | ^1.3    | [nikic/fast-route](https://packagist.org/packages/nikic/fast-route) | Router Engine (CONTROLLER couch) |
 | ^8.0    | PHP Engine                                                          |                                  |  
-| ^2.0    | Composer Dependency Manager                                         |                                  | 
+| ^2.0    | Composer                                       | Dependency Manager                                    | 
 | ^9.0    | PHPUnit                                                             | Testing Engine                   |
 
 ### TESTING
