@@ -18,6 +18,11 @@
         "ext-pdo": "*"
     },
     "scripts": {
-        "start": "php -S localhost:8042 -t public"
+        "start": "php -S localhost:8042 -t public",
+        "test": "php vendor/bin/phpunit --testdox tests"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9"
     }
 }
