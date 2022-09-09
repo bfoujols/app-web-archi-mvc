@@ -16,11 +16,8 @@ class HomeController implements ControllerInterface
     public function outputEvent()
     {
         $twig = TwigCore::getEnvironment();
-        // Obj connect Mysql -> Obj Questionnaire
-        $questionnaireModel = new questionnaireModel();
 
         echo $twig->render('home/home.html.twig', [
-            'result' => $questionnaireModel->getFechAll(),
             'visu' => false
         ]);
     }
