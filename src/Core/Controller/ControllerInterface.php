@@ -6,7 +6,5 @@ use Twig\Environment;
 
 interface ControllerInterface
 {
-    public function inputRequest(array $tabInput);
-
-    public function outputEvent();
+    public function execute(Request $request);
 }

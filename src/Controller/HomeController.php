@@ -2,18 +2,22 @@
 
 namespace Quizz\Controller;
 
+use Quizz\Core\Controller\Request;
 use Quizz\Core\View\TwigCore;
 use Quizz\Model\questionnaireModel;
 use Quizz\Core\Controller\ControllerInterface;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 class HomeController implements ControllerInterface
 {
-    public function inputRequest(array $tabInput)
-    {
-        // TODO: Implement inputRequest() method.
-    }
-
-    public function outputEvent()
+    /**
+     * @throws SyntaxError
+     * @throws RuntimeError
+     * @throws LoaderError
+     */
+    public function execute(Request $request)
     {
         $twig = TwigCore::getEnvironment();
 

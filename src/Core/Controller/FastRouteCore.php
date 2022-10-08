@@ -19,6 +19,8 @@ class FastRouteCore
         }
         $uri = rawurldecode($uri);
 
+        $request = new Request($uri, $httpMethod);
+
         $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
         switch ($routeInfo[0]) {
             case Dispatcher::NOT_FOUND:
@@ -30,10 +32,10 @@ class FastRouteCore
                 // ... 405 Method Not Allowed
                 break;
             case Dispatcher::FOUND:
-                $handler = $routeInfo[1];
+                $request->setHander($routeInfo[1])->setVars($routeInfo[2]);
+                $handler = $request->getHander();
                 $exeController = new $handler(); // -> Creation du controller correspondant à la demande
-                $exeController->inputRequest(["GET" => $_GET, "POST" => $_POST, "VARS" => $routeInfo[2]]);
-                return $exeController->outputEvent();
+                return $exeController->execute($request);
         }
     }
 }

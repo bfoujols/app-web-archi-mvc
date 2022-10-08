@@ -15,18 +15,33 @@ Cible :
 - Première année / 2e semestre pour AP ou Support
 - Deuxième année / 1re semestre pour AP 
 
-### SETUP PROJET
-Installation du projet
+## SETUP PROJET
+
+### 1. Clone du projet 
+Installation du projet se fait via les outils composer et git. \
+Dans un premier temps, il faut cloner le repository git sur votre espace de travail
+
 ````shell
-$ composer install
+git clone [!VotreUrlRepository!]
 ````
 
-Mettre un fichier .env
-````shell
-$ cp .env-exemple .env
-````
-Puis renseigner les variables d'environnement dans le fichier .env
+### 2. Fichier de configuration
+Une fois que la commande "git clone" est effectué, vous devez créer votre fichier de configuration projet (dotenv) \
+Ce fichier doit s'appeler ".env", vous pouvez partir du fichier exemple nommé ".env-exemple"
 
+````shell
+cp .env-exemple .env
+````
+
+### 3. Installation des librairies
+La prochaine étape concerne l'installation des librairies du projet. Cette installation se fait par l'outil "composer". \
+Composer est un gestionnaire de package. Son utilité est assuré la compatibilité et l'installation entre les différentes versions de librairie.
+
+````shell
+composer install
+````
+
+### 4. Démarrage du projet
 Demarrer ton projet
 ````shell
 $ composer start
