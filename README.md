@@ -1,4 +1,4 @@
-# BTS SIO WEB ARCHI MVC
+# APP WEB ARCHI MVC
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/df1ed0cf2b5a46e68a822e674ca8e671)](https://www.codacy.com/gh/bfoujols/BTS-SIO-Web-Archi-MVC/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bfoujols/manage-student-cli&amp;utm_campaign=Badge_Grade)
 ![CI](https://github.com/bfoujols/BTS-SIO-Web-Archi-MVC/actions/workflows/codacy.yml/badge.svg)
 ![CI](https://github.com/bfoujols/BTS-SIO-Web-Archi-MVC/actions/workflows/testing.yml/badge.svg)
@@ -12,8 +12,8 @@ L'objectif pédagogique est :
 - Début d'approche pour l'enseignement d'une framework (symfony, slim, Laravel ...)
 
 Cible :
-- Première année / 2e semestre pour AP ou Support
-- Deuxième année / 1re semestre pour AP 
+- Première année / 2e semestre
+- Deuxième année / 1re semestre
 
 ## SETUP PROJET
 
@@ -35,7 +35,7 @@ cp .env-exemple .env
 
 ### 3. Installation des librairies
 La prochaine étape concerne l'installation des librairies du projet. Cette installation se fait par l'outil "composer". \
-Composer est un gestionnaire de package. Son utilité est assuré la compatibilité et l'installation entre les différentes versions de librairie.
+Composer est un gestionnaire de package. Son utilité est assurée la compatibilité et l'installation entre les différentes versions de librairie.
 
 ````shell
 composer install
@@ -72,7 +72,7 @@ composer test
 
 ### DOCUMENTATION
 
-![schema](https://github.com/bfoujols/BTS-SIO-WEB-ARCHI-MVC/blob/main/docs/Concept-MVC.png?raw=true)
+![schema](https://github.com/studoo-app/app-web-archi-mvc/blob/main/docs/Concept-MVC.png?raw=true)
 
 #### USE CASE "/lister"
 
