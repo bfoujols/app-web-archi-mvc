@@ -65,4 +65,41 @@ final class EtudiantTest extends TestCase
         );
     }
 
+    public function testEtu03LoginValide(): void
+    {
+        $studen = new Etudiant();
+        $studen->setLogin("bfoujols");
+
+        $this->assertSame(
+            "bfoujols",
+            $studen->getLogin()
+        );
+    }
+
+    public function testEtu03LoginNotValideAvecEspace(): void
+    {
+        $studen = new Etudiant();
+        $studen->setLogin("bfoujo ls");
+
+        $this->assertSame(
+            "bfoujols",
+            $studen->getLogin(),
+            "Attention pas d'espace"
+        );
+    }
+
+    /**
+     * Un login ne doit pas depasser 15 caracteres
+     * @return void
+     */
+    public function testEtu03LoginNotValideMaxVarchar(): void
+    {
+        $studen = new Etudiant();
+        $studen->setLogin("bfoujolsAERTYUIO");
+
+        $this->assertNotSame(
+            15,
+            strlen($studen->getLogin())
+        );
+    }
 }
