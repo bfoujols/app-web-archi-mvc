@@ -18,7 +18,7 @@ Cible :
 
 ## SETUP PROJET
 
-### 1. Clone du projet 
+### 1. Fork du projet 
 Installation du projet se fait via les outils composer et git. \
 Dans un premier temps, il faut faire un fork du repository sur votre espace de travail
 Puis cloner le projet sur votre machine
@@ -39,7 +39,10 @@ Composer est un gestionnaire de package. Son utilité est assurée la compatibil
 composer install
 ````
 
-### 4. Démarrage du projet
+### 4. Installation de la base de donnée
+La base de donnée est un fichier sql. Elle se trouve dans le répertoire "docs/bddqcm.sql" 
+
+### 5. Démarrage du projet
 Demarrer ton projet
 ````shell
 $ composer start
@@ -51,17 +54,16 @@ En cas de création ou de mise a jour des classes du projet, faire la commande d
 ````shell
 $ composer dump-autoload 
 ````
-Pour la base de donnée, elle se trouve dans le répertoire "docs/bddqcm.sql"
 
 #### DEV STACK
 | Version | Service                                                             | DESCRIPTION                      |
 |:--------|:--------------------------------------------------------------------|:---------------------------------|
-| ^5.4    | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | Loads environment variables      |
-| ^3.3    | [twig/twig](https://packagist.org/packages/twig/twig)               | Template Engine (VIEW couch)     |
+| ^5.5    | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | Loads environment variables      |
+| ^3.5    | [twig/twig](https://packagist.org/packages/twig/twig)               | Template Engine (VIEW couch)     |
 | ^1.3    | [nikic/fast-route](https://packagist.org/packages/nikic/fast-route) | Router Engine (CONTROLLER couch) |
 | ^8.0    | [PHP Engine](https://www.php.net/downloads.php)                     | Engine PHP                       |  
 | ^2.0    | [Composer](https://getcomposer.org/download/)                       | Dependency Manager               | 
-| ^9.0    | [PHPUnit](https://phpunit.de/)                                      | Testing Engine                   |
+| ^9.5    | [PHPUnit](https://phpunit.de/)                                      | Testing Engine                   |
 
 ______
 ### TESTING

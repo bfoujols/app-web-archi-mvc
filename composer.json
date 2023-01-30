@@ -19,8 +19,11 @@
     },
     "scripts": {
         "start": [  "Composer\\Config::disableProcessTimeout",
-                    "php -S localhost:8042 -t public"],
-        "test": "php vendor/bin/phpunit --testdox tests"
+                    "php -S localhost:8042 -t public"
+                 ],
+        "test": "php vendor/bin/phpunit --testdox tests",
+        "docker-start": "docker compose up -d",
+        "docker-stop": "docker compose down"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
