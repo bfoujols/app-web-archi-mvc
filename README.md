@@ -41,12 +41,34 @@ composer install
 
 ### 4. Installation de la base de donnée
 La base de donnée est un fichier sql. Elle se trouve dans le répertoire "docs/bddqcm.sql" 
+Vous pouvez l'importer dans votre gestionnaire de base de donnée (phpmyadmin, mysql workbench, ...)
+
+Démarrer docker
+````shell
+$ composer docker-start
+`
+````
 
 ### 5. Démarrage du projet
 Demarrer ton projet
 ````shell
 $ composer start
 ````
+
+### 6. Accès au projet
+Le projet est accessible via l'url suivante : http://localhost:8080
+
+### 7. Accès à la base de donnée
+La base de donnée est accessible via l'url suivante : http://localhost:8081
+
+### 8. Accès au mailcatcher
+Le mailcatcher est accessible via l'url suivante : http://localhost:1080
+
+### 9. Stopper le projet
+````shell
+$ composer docker-stop
+````
+
 ______
 
 ### DEV PROJET
