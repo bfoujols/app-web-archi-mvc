@@ -22,10 +22,12 @@ class FastRouteCore
         $request = new Request($uri, $httpMethod);
 
         $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
+
         switch ($routeInfo[0]) {
             case Dispatcher::NOT_FOUND:
+                // ... 404 Not Found
                 $httpController = new HttpController();
-                return $httpController->outputEvent();
+                return $httpController->execute($request);
             case Dispatcher::METHOD_NOT_ALLOWED:
                 $allowedMethods = $routeInfo[1];
                 // TODO mettre les erreurs
