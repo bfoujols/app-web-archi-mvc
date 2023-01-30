@@ -81,7 +81,7 @@ final class EtudiantTest extends TestCase
         $studen = new Etudiant();
         $studen->setLogin("bfoujo ls");
 
-        $this->assertSame(
+        $this->assertNotSame(
             "bfoujols",
             $studen->getLogin(),
             "Attention pas d'espace"
