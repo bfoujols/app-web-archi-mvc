@@ -1,9 +1,9 @@
 <?php
 
-namespace Quizz\Model;
+namespace Apps\Model;
 
-use Quizz\Core\Service\DatabaseService;
-use Quizz\Entity\Questionnaire;
+use Apps\Core\Service\DatabaseService;
+use Apps\Entity\Questionnaire;
 
 class QuestionnaireModel
 {

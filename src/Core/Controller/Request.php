@@ -1,15 +1,6 @@
 <?php
-/*
- * Ce fichier fait partie du BTS-SIO-Web-Archi-MVC.
- *
- * (c) Benoit Foujols
- *
- * Pour les informations complètes sur les droits d'auteur et la licence,
- * veuillez consulter le fichier LICENSE qui a été distribué avec ce code source.
- */
 
-namespace Quizz\Core\Controller;
-
+namespace Apps\Core\Controller;
 
 class Request
 {

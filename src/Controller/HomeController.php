@@ -1,11 +1,10 @@
 <?php
 
-namespace Quizz\Controller;
+namespace Apps\Controller;
 
-use Quizz\Core\Controller\Request;
-use Quizz\Core\View\TwigCore;
-use Quizz\Model\questionnaireModel;
-use Quizz\Core\Controller\ControllerInterface;
+use Apps\Core\Controller\Request;
+use Apps\Core\View\TwigCore;
+use Apps\Core\Controller\ControllerInterface;
 use Twig\Error\LoaderError;
 use Twig\Error\RuntimeError;
 use Twig\Error\SyntaxError;

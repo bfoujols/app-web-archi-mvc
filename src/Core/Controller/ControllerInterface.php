@@ -1,6 +1,6 @@
 <?php
 
-namespace Quizz\Core\Controller;
+namespace Apps\Core\Controller;
 
 use Twig\Environment;
 

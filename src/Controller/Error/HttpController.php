@@ -1,14 +1,13 @@
 <?php
 
-namespace Quizz\Controller\Error;
+namespace Apps\Controller\Error;
 
-use Quizz\Core\Controller\ControllerInterface;
-use Quizz\Core\Controller\Request;
-use Quizz\Core\View\TwigCore;
-use Quizz\Model\QuestionnaireModel;
-use Twig\Error\LoaderError;
-use Twig\Error\RuntimeError;
-use Twig\Error\SyntaxError;
+use Apps\Core\Controller\ControllerInterface;
+use Apps\Core\Controller\Request;
+use Apps\Core\View\TwigCore;
+use Apps\Error\LoaderError;
+use Apps\Error\RuntimeError;
+use Apps\Error\SyntaxError;
 
 class HttpController implements ControllerInterface
 {

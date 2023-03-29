@@ -1,6 +1,6 @@
 <?php
 
-namespace Quizz\Core\View;
+namespace Apps\Core\View;
 
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;

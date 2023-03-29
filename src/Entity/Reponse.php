@@ -1,6 +1,6 @@
 <?php
 
-namespace Quizz\Entity;
+namespace Apps\Entity;
 
 class Reponse
 {

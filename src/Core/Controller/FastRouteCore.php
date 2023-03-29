@@ -1,9 +1,9 @@
 <?php
 
-namespace Quizz\Core\Controller;
+namespace Apps\Core\Controller;
 
 use FastRoute\Dispatcher;
-use Quizz\Controller\Error\HttpController;
+use Apps\Controller\Error\HttpController;
 
 class FastRouteCore
 {

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Quizz\Entity\Etudiant;
+use Apps\Entity\Etudiant;
 
 final class EtudiantTest extends TestCase
 {

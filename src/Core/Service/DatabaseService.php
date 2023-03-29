@@ -1,6 +1,6 @@
 <?php
 
-namespace Quizz\Core\Service;
+namespace Apps\Core\Service;
 
 use Exception;
 use PDO;
