@@ -4,17 +4,8 @@
 > Ce projet est obsolète, il a été migré vers Edu-Framework -> [https://github.com/studoo-app/edu-framework](https://github.com/studoo-app/edu-framework)
 
 
-Voici une proposition d'architecture MVC pour l'élaboration d'un projet ou de TP en cours \
-L'objectif pédagogique est :
-- Appréhender un projet par couche via MVC
-- Faire un projet "full POO" et dans les "best practices" attendu par les entreprises
-- Orchestrer via un gestionnaire de package (composer)
-- Développement de test unitaire
-- Début d'approche pour l'enseignement d'une framework (symfony, slim, Laravel ...)
-
-Cible :
-- Première année / 2e semestre
-- Deuxième année / 1re semestre
+___
+___
 
 ## SETUP PROJET
 
