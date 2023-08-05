@@ -4,7 +4,7 @@ ___
 ___
 
 > [!IMPORTANT]
-> Ce projet est obsolète, il a été migré vers Edu-Framework -> [https://github.com/studoo-app/edu-framework](https://github.com/studoo-app/edu-framework)
+> **Ce projet est obsolète**, il a été migré vers Edu-Framework -> [https://github.com/studoo-app/edu-framework](https://github.com/studoo-app/edu-framework)
 
 
 ___
