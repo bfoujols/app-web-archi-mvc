@@ -1,9 +1,13 @@
 ![separe](https://github.com/studoo-app/.github/blob/main/profile/studoo-banner-logo.png)
 # APP WEB ARCHI MVC
+___
+___
+
 > [!IMPORTANT]
 > Ce projet est obsolète, il a été migré vers Edu-Framework -> [https://github.com/studoo-app/edu-framework](https://github.com/studoo-app/edu-framework)
 
 
+___
 ___
 ___
 
